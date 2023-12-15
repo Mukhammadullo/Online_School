@@ -1,4 +1,5 @@
 import './App.css'
+import Card1 from './components/Card1'
 
 
 function App() {
@@ -41,8 +42,16 @@ function App() {
         <div className='w-[50%] h-[80vh] flex  border-red-300 border-solid border-[2px] mobile:w-[100%] sm:w-[50%]'>
           <img src='src/assets/1.jpg' />
         </div>
-
       </section>
+
+      {/* #section2 */}
+      <section className='w-[90%] h-[70vh] border-red-500 border-solid border-[2px] m-auto flex justify-between'>
+        <Card1 img={"src/assets/circle sec- (1).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
+        <Card1 img={"src/assets/circle sec- (1).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
+        <Card1 img={"src/assets/circle sec- (1).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
+      
+      </section>
+
 
     </>
   )
