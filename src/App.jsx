@@ -142,7 +142,7 @@ function App() {
       </section>
 
       {/*# section9 */}
-      <section className='w-[85%] h-[80vh]  sm:flex justify-between mobile:block items-center border-solid border-[2px] border-red-500 m-auto'>
+      <section className='w-[85%] mobile:h-[490vh] sm:h-[80vh]  sm:flex justify-between mobile:block items-center border-solid border-[2px] border-red-500 m-auto'>
         <Card4 img={'src/assets/user-cover-1.png'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
         <Card4 img={'src/assets/user-cover-2.svg'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
         <Card4 img={'src/assets/user-cover-3.png'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
@@ -151,17 +151,71 @@ function App() {
 
 
       {/* #section10 */}
-      <section className='w-[85%] h-[70vh] border-red-500 border-solid border-[2px] m-auto flex flex-col justify-center items-center'>
+      <section className='w-[85%] mobile:h-[80vh] sm:h-[70vh] border-red-500 border-solid border-[2px] m-auto flex flex-col justify-center items-center'>
         <p className='text-[#96BB7C] font-medium text-[18px]'>Newsletter</p>
         <h1 className='font-bold text-[30px] m-[10px]'>Watch our Courses</h1>
         <p className='text-[#737373] font-medium mb-[70px]'>Problems trying to resolve the conflict between  <br />
           the two major realms of Classical physics: Newtonian mechanics </p>
 
         <div>
-          <input placeholder='Your Email'  className='w-[400px] h-[50px] border-black-500 border-solid border-[2px] p-[5px]'/>
-          <button className='bg-[#96BB7C] h-[50px] w-[120px] text-[white] font-medium '>Subscribe</button>
+          <input placeholder='Your Email' className='sm:w-[400px] mobile:w-[160px] mobile:h-[30px] sm:h-[50px] border-black-500 border-solid border-[2px] p-[5px]' />
+          <button className='bg-[#96BB7C] mobile:h-[30px] sm:h-[50px] sm:w-[120px] mobile:w-[80px]  text-[white] font-medium '>Subscribe</button>
         </div>
       </section>
+
+      {/* section11 */}
+      <section className='w-[85%] h-[60vh] border-red-500 border-solid border-[2px] flex justify-between items-center m-auto'>
+
+        <ul>
+          <li className='font-bold text-[18px]'>Company Info</li>
+          <li className='font-medium text-[#737373] m-[5px] '>About Us</li>
+          <li className='font-medium text-[#737373] m-[5px] '>Carrier</li>
+          <li className='font-medium text-[#737373] m-[5px] '>We are hiring</li>
+          <li className='font-medium text-[#737373] m-[5px] '>Blog</li>
+        </ul>
+
+        <ul>
+          <li className='font-bold text-[18px]'>Legal</li>
+          <li className='font-medium text-[#737373] m-[5px]' >About Us</li>
+          <li className='font-medium text-[#737373] m-[5px]' >Carrier</li>
+          <li className='font-medium text-[#737373] m-[5px]' >We are hiring</li>
+          <li className='font-medium text-[#737373] m-[5px]' >Blog</li>
+        </ul>
+
+        <ul>
+          <li className='font-bold text-[18px]'>Features</li>
+          <li className='font-medium text-[#737373] m-[5px]'>Business Marketing</li>
+          <li className='font-medium text-[#737373] m-[5px]'>User Analytic</li>
+          <li className='font-medium text-[#737373] m-[5px]'>Live Chat</li>
+          <li className='font-medium text-[#737373] m-[5px]'>Unlimited Support</li>
+        </ul>
+
+        <ul>
+          <li className='font-bold text-[18px]'>Resources</li>
+          <li className='font-medium text-[#737373] m-[5px]'>IOS & Android</li>
+          <li className='font-medium text-[#737373] m-[5px]'>Watch a Demo</li>
+          <li className='font-medium text-[#737373] m-[5px]'>Customers</li>
+          <li className='font-medium text-[#737373] m-[5px]'>API</li>
+        </ul>
+
+        <ul>
+          <li className='font-bold text-[18px]'>Get In Touch</li>
+          <li className='font-medium text-[#737373] m-[5px]'>(480) 555-0103</li>
+          <li className='font-medium text-[#737373] m-[5px]'>4517 Washington Ave. Manchester, </li>
+          <li className='font-medium text-[#737373] m-[5px]'>debra.holt@example.com</li>
+        </ul>
+      </section>
+
+
+      <footer className='w-[100%]  h-[15vh] flex justify-between items-center bg-[#FAFAFA]'>
+        <h1 className='text-[#737373] font-bold ml-[15px]'>Made With Love By Figmaland All Right Reserved </h1>
+
+        <div className='flex mr-[15px]'>
+          <img src='src/assets/facebook.png' />
+          <img src='src/assets/instagramm.png' />
+          <img src='src/assets/twiter.png' />
+        </div>
+</footer>
 
     </>
   )
