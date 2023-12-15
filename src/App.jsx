@@ -31,7 +31,7 @@ function App() {
       <section className='w-[90%]  h-[80vh] m-auto  sm:flex'>
 
         {/* section1_leftCard */}
-        <div className='w-[50%] h-[80vh] flex flex-col justify-center border-red-300 border-solid border-[2px] mobile:w-[100%] sm:w-[50%]'>
+        <div className='w-[50%] h-[80vh] flex flex-col justify-center  mobile:w-[100%] sm:w-[50%]'>
           <h1 className='text-[#252B42] m-[5px] text-[40px] font-bold'>25K+ STUDENTS <br /> TRUST US</h1>
           <p className='text-[#737373]  m-[5px] text-[18px] font-bold'>Every day brings with it a fresh set of learning <br /> possibilities.</p>
 
@@ -42,7 +42,7 @@ function App() {
 
         </div>
         {/* section1_rightCard */}
-        <div className='w-[50%] h-[80vh] flex  border-red-300 border-solid border-[2px] mobile:w-[100%] sm:w-[50%]'>
+        <div className='w-[50%] h-[80vh] flex  mobile:w-[100%] sm:w-[50%]'>
           <img src='src/assets/1.jpg' />
         </div>
       </section>
@@ -207,7 +207,7 @@ function App() {
       </section>
 
 
-      <footer className='w-[100%]  h-[15vh] flex justify-between items-center bg-[#FAFAFA]'>
+      <footer className='w-[100%]  h-[15vh]  flex justify-between items-center bg-[#FAFAFA]'>
         <h1 className='text-[#737373] font-bold ml-[15px]'>Made With Love By Figmaland All Right Reserved </h1>
 
         <div className='flex mr-[15px]'>
@@ -215,7 +215,7 @@ function App() {
           <img src='src/assets/instagramm.png' />
           <img src='src/assets/twiter.png' />
         </div>
-</footer>
+      </footer>
 
     </>
   )
