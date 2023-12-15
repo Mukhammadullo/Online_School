@@ -106,9 +106,7 @@ function App() {
 
           {/* Card2 */}
           <div className='flex justify-between'>
-            <Card2 />
-            <Card2 />
-            <Card2 />
+            <Card2/>
           </div>
         </div>
       </section>
