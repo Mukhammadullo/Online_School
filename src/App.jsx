@@ -124,6 +124,11 @@ function App() {
       </section>
 
 
+      {/* section7 */}
+      <section className='w-[85%] h-[70vh] border-red-500 border-solid border-[2px] m-auto'>
+        
+      </section>
+
     </>
   )
 }
