@@ -1,6 +1,7 @@
 import './App.css'
 import Card1 from './components/Card1'
 import Card2 from './components/Card2'
+import Card3 from './components/Card3'
 
 
 function App() {
@@ -126,7 +127,7 @@ function App() {
 
       {/* section7 */}
       <section className='w-[85%] h-[70vh] border-red-500 border-solid border-[2px] m-auto'>
-        
+        <Card3  img={'src/assets/22.png'} txt={'Slate helps you see how many more days  you need to work to reach your financial goal for the month and year.'}  />
       </section>
 
     </>
