@@ -28,10 +28,10 @@ function App() {
 
 
       {/* #section1 */}
-      <section className='w-[90%]  h-[80vh] m-auto  sm:flex'>
+      <section className='w-[90%]  mobile:h-[160vh] sm:h-[80vh] m-auto    sm:flex'>
 
-        {/* section1_leftCard */}
-        <div className='w-[50%] h-[80vh] flex flex-col justify-center  mobile:w-[100%] sm:w-[50%]'>
+        {/* section1_left */}
+        <div className='w-[50%] sm:h-[80vh] flex flex-col justify-center  mobile:w-[100%] sm:w-[50%]'>
           <h1 className='text-[#252B42] m-[5px] text-[40px] font-bold'>25K+ STUDENTS <br /> TRUST US</h1>
           <p className='text-[#737373]  m-[5px] text-[18px] font-bold'>Every day brings with it a fresh set of learning <br /> possibilities.</p>
 
@@ -41,14 +41,14 @@ function App() {
           </div>
 
         </div>
-        {/* section1_rightCard */}
+        {/* section1_right */}
         <div className='w-[50%] h-[80vh] flex  mobile:w-[100%] sm:w-[50%]'>
           <img src='src/assets/1.jpg' />
         </div>
       </section>
 
       {/* #section2 */}
-      <section className='w-[90%]   border-red-500 border-solid border-[2px] m-auto sm:flex justify-between mobile:flex-wrap'>
+      <section className='w-[90%]   m-auto sm:flex justify-between mobile:flex-wrap'>
         <Card1 img={"src/assets/circle sec- (1).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
         <Card1 img={"src/assets/circle sec- (2).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
         <Card1 img={"src/assets/circle sec-.png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
@@ -56,30 +56,30 @@ function App() {
 
 
       {/* #section3 */}
-      <section className='w-[90%] h-[15vh] border-red-600 border-solid border-[2px] m-auto flex justify-evenly mt-[20px]  '>
-        <div>
-          <h1 className='text-[50px] text-[#96BB7C] font-bold'>15K</h1>
-          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+      <section className='w-[90%]  mobile:h-[25vh] sm:h-[15vh]  m-auto flex justify-evenly mt-[20px]  '>
+        <div >
+          <h1 className='md:text-[50px] text-[30px]  text-[#96BB7C] font-bold'>15K</h1>
+          <p className='text-[#252B42] md:text-[14px] mobile:text-[12px] font-medium'>Happy Customers</p>
         </div>
         <div>
-          <h1 className='text-[50px] text-[#96BB7C] font-bold'>150K</h1>
-          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+          <h1 className='md:text-[50px] text-[30px] text-[#96BB7C] font-bold'>150K</h1>
+          <p className='text-[#252B42] md:text-[14px]  mobile:text-[12px] font-medium'>Happy Customers</p>
         </div>
         <div>
-          <h1 className='text-[50px] text-[#96BB7C] font-bold'>15K</h1>
-          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+          <h1 className='md:text-[50px] text-[30px] text-[#96BB7C] font-bold'>15K</h1>
+          <p className='text-[#252B42] text-[14px]  mobile:text-[12px] font-medium'>Happy Customers</p>
         </div>
         <div>
-          <h1 className='text-[50px] text-[#96BB7C] font-bold'>100+</h1>
-          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+          <h1 className='md:text-[50px] text-[30px] text-[#96BB7C] font-bold'>100+</h1>
+          <p className='text-[#252B42] text-[14px] mobile:text-[12px] font-medium'>Happy Customers</p>
         </div>
 
       </section>
 
       {/* #section4 */}
-      <section className='w-[90%] mobile:h-[150vh] sm:h-[70vh] border-red-600 border-solid border-[2px] mt-[20px] m-auto sm:flex'>
+      <section className='w-[90%] mobile:h-[150vh] sm:h-[70vh]  mt-[20px] m-auto sm:flex'>
         {/* section4_left */}
-        <div className='w-[50%] h-[70vh] border-red-400 border-solid border-[2px] flex flex-col justify-center mobile:w-[100%] sm:w-[50%]'>
+        <div className='w-[50%] h-[70vh]  flex flex-col justify-center mobile:w-[100%] sm:w-[50%]'>
           <p className='w-[15%] border-red-500 border-solid border-[2px] m-[8px]'></p>
           <h1 className='text-[30px] font-bold m-[8px]'>Every Client Matters</h1>
           <p className='text-[#737373] font-medium m-[8px]'>Problems trying to resolve the conflict between <br />
@@ -88,18 +88,18 @@ function App() {
           <p className='text-[#96BB7C] font-medium m-[8px]'>Learn more</p>
         </div>
         {/* section4_right */}
-        <div className='w-[50%] h-[70vh] border-red-400 border-solid border-[2px] flex justify-center items-center mobile:w-[100%] sm:w-[50%]'>
+        <div className='w-[50%] h-[70vh] flex justify-center items-center mobile:w-[100%] sm:w-[50%]'>
           <img className='w-[90%] h-[70vh]' src='src/assets/2.jpg' />
         </div>
       </section>
 
 
       {/* section5 */}
-      <section className='w-[100%] mobile:h-[300vh] sm:h-[120vh] bg-[#FFF2F3] mt-[20px]'>
+      <section className='w-[100%] mobile:h-[350vh] sm:h-[120vh] bg-[#FFF2F3] mt-[20px]'>
         {/* section5_card */}
-        <div className='w-[85%] mobile:h-[300vh] sm:h-[120vh] border-red-500 border-solid border-[2px] m-auto'>
+        <div className='w-[85%] mobile:h-[350vh] sm:h-[120vh]  m-auto'>
           {/* section5_card_top */}
-          <div className='w-[100%] h-[40vh] border-red-500 border-solid border-[2px] flex flex-col justify-center '>
+          <div className='w-[100%] h-[40vh]  flex flex-col justify-center '>
             <p className='text-[#96BB7C] font-medium m-[10px]'>Practice Advice</p>
             <h1 className='text-[30px] font-bold m-[10px]'>Our Experts Teacher</h1>
             <p className='text-[#737373] m-[10px] font-medium' >Problems trying to resolve the conflict between <br />
@@ -118,7 +118,7 @@ function App() {
 
 
       {/*# section6 */}
-      <section className='w-[85%] mobile:h-[40vh] sm:h-[26vh] border-red-500 border-solid border-[2px] m-auto mt-[20px]'>
+      <section className='w-[85%] mobile:h-[40vh] sm:h-[26vh] m-auto mt-[20px]'>
         <p className='text-[#96BB7C] font-medium m-[10px]'>Practice Advice</p>
         <h1 className='text-[36px] font-bold m-[10px]'>Every Client Matters</h1>
         <p className='text-[#737373]  mobile:w-[80%] sm:w-[38%] font-medium m-[10px]'>Problems trying to resolve the conflict between
@@ -127,14 +127,14 @@ function App() {
 
 
       {/*# section7 */}
-      <section className='w-[85%] sm:h-[65vh] border-red-500 border-solid border-[2px] m-auto sm:flex justify-between items-center mobile:h-[160vh]'>
+      <section className='w-[85%] sm:h-[65vh]  m-auto sm:flex justify-between items-center mobile:hidden'>
         <Card3 img={'src/assets/22.png'} txt={'Slate helps you see how many more days  you need to work to reach your financial goal for the month and year.'} />
         <Card3 img={'src/assets/22.png'} txt={'Slate helps you see how many more days  you need to work to reach your financial goal for the month and year.'} />
         <Card3 img={'src/assets/22.png'} txt={'Slate helps you see how many more days  you need to work to reach your financial goal for the month and year.'} />
       </section>
 
       {/*# section8 */}
-      <section className='w-[85%] mobile:h-[40vh] sm:h-[26vh] border-red-500 border-solid border-[2px] m-auto mt-[20px]'>
+      <section className='w-[85%] mobile:h-[40vh] sm:h-[26vh] m-auto mt-[20px]'>
         <p className='text-[#96BB7C] font-medium m-[10px]'>Practice Advice</p>
         <h1 className='text-[36px] font-bold m-[10px]'>Our Popular Courses</h1>
         <p className='text-[#737373]  mobile:w-[80%] sm:w-[38%] font-medium m-[10px]'>Problems trying to resolve the conflict between
@@ -142,7 +142,7 @@ function App() {
       </section>
 
       {/*# section9 */}
-      <section className='w-[85%] mobile:h-[490vh] sm:h-[80vh]  sm:flex justify-between mobile:block items-center border-solid border-[2px] border-red-500 m-auto'>
+      <section className='w-[85%] mobile:h-[490vh] sm:h-[80vh]  sm:flex justify-between mobile:block items-center  m-auto'>
         <Card4 img={'src/assets/user-cover-1.png'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
         <Card4 img={'src/assets/user-cover-2.svg'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
         <Card4 img={'src/assets/user-cover-3.png'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
@@ -151,7 +151,7 @@ function App() {
 
 
       {/* #section10 */}
-      <section className='w-[85%] mobile:h-[80vh] sm:h-[70vh] border-red-500 border-solid border-[2px] m-auto flex flex-col justify-center items-center'>
+      <section className='w-[85%] mobile:h-[80vh] sm:h-[70vh]  m-auto flex flex-col justify-center items-center'>
         <p className='text-[#96BB7C] font-medium text-[18px]'>Newsletter</p>
         <h1 className='font-bold text-[30px] m-[10px]'>Watch our Courses</h1>
         <p className='text-[#737373] font-medium mb-[70px]'>Problems trying to resolve the conflict between  <br />
@@ -164,7 +164,7 @@ function App() {
       </section>
 
       {/* section11 */}
-      <section className='w-[85%] h-[60vh] border-red-500 border-solid border-[2px] flex justify-between items-center m-auto'>
+      <section className='w-[85%] h-[60vh]  flex justify-between items-center m-auto'>
 
         <ul>
           <li className='font-bold text-[18px]'>Company Info</li>

@@ -2,7 +2,7 @@ import React from 'react'
 
 const Card4 = ({ img, title, job, facebook, ins, twitter }) => {
     return (
-        <div className='mobile:w-[100%] mobile:h-[120vh] sm:w-[22%] sm:h-[60vh] border-red-500 border-solid border-[2px] rounded-[12px] shadow-xl'>
+        <div className='mobile:w-[100%] mobile:h-[120vh] sm:w-[22%] sm:h-[60vh]  rounded-[12px] shadow-xl'>
             <div>
                 <img src={img}  className='w-[100%] '  />
             </div>

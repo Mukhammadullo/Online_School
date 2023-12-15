@@ -3,7 +3,7 @@ import React from 'react'
 const Card2 = ({ txt1, btn1, title, txt, mid, price1, price2 }) => {
     return (
 
-        <div className='mobile:w-[100%]  sm:w-[33%] h-[80vh] border-red-500 border-solid border-[2px] flex flex-col justify-between'>
+        <div className='mobile:w-[100%]  sm:w-[33%] sm:h-[80vh] mobile: h-[120vh]  flex flex-col justify-between'>
             <div className='main w-[100%] h-[35vh] flex flex-col  justify-between p-[10px] '>
                 <p className='w-[15%] h-[4vh] bg-[red] rounded-[6px] ml-[15px] font-medium   text-[white] text-center'>Sale</p>
                 <div className='flex justify-center'>
