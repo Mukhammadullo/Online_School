@@ -103,12 +103,13 @@ function App() {
             <p className='text-[#737373] m-[10px] font-medium' >Problems trying to resolve the conflict between <br />
               the two major realms of Classical physics: Newtonian mechanics </p>
           </div>
-        
-        {/* Card2 */}
-        <Card2/>
-        <Card2/>
-        <Card2/>
 
+          {/* Card2 */}
+          <div className='flex justify-between'>
+            <Card2 />
+            <Card2 />
+            <Card2 />
+          </div>
         </div>
       </section>
 
