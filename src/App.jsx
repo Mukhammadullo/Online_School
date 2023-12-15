@@ -4,12 +4,6 @@ import CardOne from './components/Card/CardOne';
 let data = [{ "name": 1, "title": "Hello, World!", "id": 1 }, { "name": 1, "title": "Hello, World!", "id": 2 } ]
 
 
-function del(id){
-  console.log(id);
-  data = data.filter((e) => {
-    return e.id != id
-  })
-}
 
 function App() {
   return (
