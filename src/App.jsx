@@ -6,11 +6,10 @@ function App() {
     <>
 
       {/*#header*/}
-      <header className='w-[90%] h-[10vh] border-solid border-red-500 border-[3px] m-auto flex justify-between items-center sm:flex-col
-      lg:flex-row'>
+      <header className='w-[90%] h-[10vh] border-solid border-red-500 border-[3px] m-auto flex justify-between items-center'>
         <h1 className='font-bold text-[25px]'>Your School</h1>
 
-        <ul className='flex md:text-[14px]'>
+        <ul className='flex md:text-[14px] mobile:hidden sm:flex '>
           <li className='text-[#737373] text-[18px] m-[8px] font-semibold'>Home</li>
           <li className='text-[#737373] text-[18px] m-[8px] font-semibold'>Product</li>
           <li className='text-[#737373] text-[18px] m-[8px] font-semibold'>Pricing</li>
