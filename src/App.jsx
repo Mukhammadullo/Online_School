@@ -75,7 +75,7 @@ function App() {
       </section>
 
       {/* #section4 */}
-      <section className='w-[90%] h-[70vh] border-red-600 border-solid border-[2px] mt-[20px] m-auto sm:flex'>
+      <section className='w-[90%] mobile:h-[150vh] sm:h-[70vh] border-red-600 border-solid border-[2px] mt-[20px] m-auto sm:flex'>
         {/* section4_left */}
         <div className='w-[50%] h-[70vh] border-red-400 border-solid border-[2px] flex flex-col justify-center mobile:w-[100%] sm:w-[50%]'>
           <p className='w-[15%] border-red-500 border-solid border-[2px] m-[8px]'></p>
@@ -93,9 +93,9 @@ function App() {
 
 
       {/* section5 */}
-      <section className='w-[100%] h-[120vh] bg-[#FFF2F3]'>
+      <section className='w-[100%] mobile:h-[300vh] sm:h-[120vh] bg-[#FFF2F3] mt-[20px]'>
         {/* section5_card */}
-        <div className='w-[85%] h-[120vh] border-red-500 border-solid border-[2px] m-auto'>
+        <div className='w-[85%] mobile:h-[300vh] sm:h-[120vh] border-red-500 border-solid border-[2px] m-auto'>
           {/* section5_card_top */}
           <div className='w-[100%] h-[40vh] border-red-500 border-solid border-[2px] flex flex-col justify-center '>
             <p className='text-[#96BB7C] font-medium m-[10px]'>Practice Advice</p>
@@ -105,8 +105,11 @@ function App() {
           </div>
 
           {/* Card2 */}
-          <div className='flex justify-between'>
-            <Card2/>
+          <div className=' justify-between mobile:block sm:flex'>
+            <Card2 txt1={'Training Courses'} btn1={'4.9'} title={'Get Quality Education'} txt={'We focus on ergonomics and meeting you where you work. It.s only a keystroke away.'} mid={'15 Sales'} price1={'$16.48'} price2={'$6.48'} />
+            <Card2 txt1={'2,769 online courses	'} btn1={'4.9'} title={'Our Popular Courses'} txt={'We focus on ergonomics and meeting you where you work. It.s only a keystroke away.'} mid={'15 Sales'} price1={'$16.48'} price2={'$6.48'} />
+            <Card2 txt1={'Expert instruction'} btn1={'4.9'} title={'Most Popular Courses'} txt={'We focus on ergonomics and meeting you where you work. It.s only a keystroke away.'} mid={'15 Sales'} price1={'$16.48'} price2={'$6.48'} />
+
           </div>
         </div>
       </section>
