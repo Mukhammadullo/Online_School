@@ -45,7 +45,7 @@ function App() {
       </section>
 
       {/* #section2 */}
-      <section className='w-[90%] h-[70vh] border-red-500 border-solid border-[2px] m-auto flex justify-between'>
+      <section className='w-[90%]   border-red-500 border-solid border-[2px] m-auto sm:flex justify-between mobile:flex-wrap'>
         <Card1 img={"src/assets/circle sec- (1).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
         <Card1 img={"src/assets/circle sec- (2).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
         <Card1 img={"src/assets/circle sec-.png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
