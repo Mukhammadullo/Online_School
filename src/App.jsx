@@ -117,17 +117,20 @@ function App() {
 
 
       {/* section6 */}
-      <section className='w-[85%] h-[26vh] border-red-500 border-solid border-[2px] m-auto mt-[20px]'>
+      <section className='w-[85%] mobile:h-[40vh] sm:h-[26vh] border-red-500 border-solid border-[2px] m-auto mt-[20px]'>
         <p className='text-[#96BB7C] font-medium m-[10px]'>Practice Advice</p>
         <h1 className='text-[36px] font-bold m-[10px]'>Every Client Matters</h1>
-        <p className='text-[#737373] w-[38%] font-medium m-[10px]'>Problems trying to resolve the conflict between
+        <p className='text-[#737373]  mobile:w-[80%] sm:w-[38%] font-medium m-[10px]'>Problems trying to resolve the conflict between
           the two major realms of Classical physics: Newtonian mechanics </p>
       </section>
 
 
       {/* section7 */}
-      <section className='w-[85%] h-[70vh] border-red-500 border-solid border-[2px] m-auto'>
+      <section className='w-[85%] sm:h-[65vh] border-red-500 border-solid border-[2px] m-auto sm:flex justify-between items-center mobile:h-[160vh]'>
         <Card3  img={'src/assets/22.png'} txt={'Slate helps you see how many more days  you need to work to reach your financial goal for the month and year.'}  />
+        <Card3  img={'src/assets/22.png'} txt={'Slate helps you see how many more days  you need to work to reach your financial goal for the month and year.'}  />
+        <Card3  img={'src/assets/22.png'} txt={'Slate helps you see how many more days  you need to work to reach your financial goal for the month and year.'}  />
+     
       </section>
 
     </>
