@@ -25,7 +25,7 @@ function App() {
 
 
       {/* #section1 */}
-      <section className='w-[90%]  h-[80vh] border-solid border-red-500 border-[2px] m-auto  sm:flex'>
+      <section className='w-[90%]  h-[80vh] m-auto  sm:flex'>
 
         {/* section1_leftCard */}
         <div className='w-[50%] h-[80vh] flex flex-col justify-center border-red-300 border-solid border-[2px] mobile:w-[100%] sm:w-[50%]'>
