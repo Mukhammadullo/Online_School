@@ -53,7 +53,7 @@ function App() {
 
 
       {/* #section3 */}
-      <section className='w-[90%] h-[15vh] border-red-600 border-solid border-[2px] m-auto flex justify-evenly  '>
+      <section className='w-[90%] h-[15vh] border-red-600 border-solid border-[2px] m-auto flex justify-evenly mt-[20px]  '>
         <div>
           <h1 className='text-[50px] text-[#96BB7C] font-bold'>15K</h1>
           <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
@@ -74,7 +74,21 @@ function App() {
       </section>
 
       {/* #section4 */}
-      <section></section>
+      <section className='w-[90%] h-[70vh] border-red-600 border-solid border-[2px] mt-[20px] m-auto sm:flex'>
+        {/* section4_left */}
+        <div className='w-[50%] h-[70vh] border-red-400 border-solid border-[2px] flex flex-col justify-center mobile:w-[100%] sm:w-[50%]'>
+          <p className='w-[15%] border-red-500 border-solid border-[2px] m-[8px]'></p>
+          <h1 className='text-[30px] font-bold m-[8px]'>Every Client Matters</h1>
+          <p className='text-[#737373] font-medium m-[8px]'>Problems trying to resolve the conflict between <br />
+            the two major realms of Classical physics: <br />
+            Newtonian mechanics </p>
+          <p className='text-[#96BB7C] font-medium m-[8px]'>Learn more</p>
+        </div>
+        {/* section4_right */}
+        <div className='w-[50%] h-[70vh] border-red-400 border-solid border-[2px] flex justify-center items-center mobile:w-[100%] sm:w-[50%]'>
+          <img className='w-[90%] h-[70vh]' src='src/assets/2.jpg' />
+        </div>
+      </section>
 
     </>
   )
