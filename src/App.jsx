@@ -2,6 +2,7 @@ import './App.css'
 import Card1 from './components/Card1'
 import Card2 from './components/Card2'
 import Card3 from './components/Card3'
+import Card4 from './components/Card4'
 
 
 function App() {
@@ -133,12 +134,33 @@ function App() {
       </section>
 
       {/*# section8 */}
-    
       <section className='w-[85%] mobile:h-[40vh] sm:h-[26vh] border-red-500 border-solid border-[2px] m-auto mt-[20px]'>
         <p className='text-[#96BB7C] font-medium m-[10px]'>Practice Advice</p>
-        <h1 className='text-[36px] font-bold m-[10px]'>Every Client Matters</h1>
+        <h1 className='text-[36px] font-bold m-[10px]'>Our Popular Courses</h1>
         <p className='text-[#737373]  mobile:w-[80%] sm:w-[38%] font-medium m-[10px]'>Problems trying to resolve the conflict between
           the two major realms of Classical physics: Newtonian mechanics </p>
+      </section>
+
+      {/*# section9 */}
+      <section className='w-[85%] h-[80vh]  sm:flex justify-between mobile:block items-center border-solid border-[2px] border-red-500 m-auto'>
+        <Card4 img={'src/assets/user-cover-1.png'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
+        <Card4 img={'src/assets/user-cover-2.svg'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
+        <Card4 img={'src/assets/user-cover-3.png'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
+        <Card4 img={'src/assets/user-cover-4.png'} title={'Julian Jameson'} job={'Profession'} facebook={'src/assets/facebook.png'} ins={'src/assets/instagramm.png'} twitter={'src/assets/twiter.png'} />
+      </section>
+
+
+      {/* #section10 */}
+      <section className='w-[85%] h-[70vh] border-red-500 border-solid border-[2px] m-auto flex flex-col justify-center items-center'>
+        <p className='text-[#96BB7C] font-medium text-[18px]'>Newsletter</p>
+        <h1 className='font-bold text-[30px] m-[10px]'>Watch our Courses</h1>
+        <p className='text-[#737373] font-medium mb-[70px]'>Problems trying to resolve the conflict between  <br />
+          the two major realms of Classical physics: Newtonian mechanics </p>
+
+        <div>
+          <input placeholder='Your Email'  className='w-[400px] h-[50px] border-black-500 border-solid border-[2px] p-[5px]'/>
+          <button className='bg-[#96BB7C] h-[50px] w-[120px] text-[white] font-medium '>Subscribe</button>
+        </div>
       </section>
 
     </>
