@@ -49,10 +49,29 @@ function App() {
         <Card1 img={"src/assets/circle sec- (1).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
         <Card1 img={"src/assets/circle sec- (2).png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
         <Card1 img={"src/assets/circle sec-.png"} title={"Expert instruction"} innerTxt={"The gradual accumulation of  information about atomic and   small-scale behaviour..."} />
-        </section>
+      </section>
 
 
-{/* #section3 */}
+      {/* #section3 */}
+      <section className='w-[90%] h-[15vh] border-red-600 border-solid border-[2px] m-auto flex justify-evenly  '>
+        <div>
+          <h1 className='text-[50px] text-[#96BB7C] font-bold'>15K</h1>
+          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+        </div>
+        <div>
+          <h1 className='text-[50px] text-[#96BB7C] font-bold'>150K</h1>
+          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+        </div>
+        <div>
+          <h1 className='text-[50px] text-[#96BB7C] font-bold'>15K</h1>
+          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+        </div>
+        <div>
+          <h1 className='text-[50px] text-[#96BB7C] font-bold'>100+</h1>
+          <p className='text-[#252B42] text-[14px] font-medium'>Happy Customers</p>
+        </div>
+
+      </section>
 
 
     </>
