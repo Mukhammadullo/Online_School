@@ -90,6 +90,22 @@ function App() {
         </div>
       </section>
 
+
+      {/* section5 */}
+      <section className='w-[100%] h-[120vh] bg-[#FFF2F3]'>
+        {/* section5_card */}
+        <div className='w-[85%] h-[120vh] border-red-500 border-solid border-[2px] m-auto'>
+          {/* section5_card_top */}
+          <div className='w-[100%] h-[40vh] border-red-500 border-solid border-[2px] flex flex-col justify-center '>
+            <p className='text-[#96BB7C] font-medium m-[10px]'>Practice Advice</p>
+            <h1 className='text-[30px] font-bold m-[10px]'>Our Experts Teacher</h1>
+            <p className='text-[#737373] m-[10px] font-medium' >Problems trying to resolve the conflict between <br />
+              the two major realms of Classical physics: Newtonian mechanics </p>
+          </div>
+        </div>
+      </section>
+
+
     </>
   )
 }
